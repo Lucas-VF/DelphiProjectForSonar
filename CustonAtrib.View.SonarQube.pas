@@ -5,17 +5,17 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls
-  //,MyAtributes
+  ,MyAtributes
   ;
 
-  type
-    AttTable = class(TCustomAttribute)
-  private
-    FName: string;
-  public
-    constructor Create(ATableName: string);
-    property Name: string read FName write FName;
-  end;
+//  type
+//    AttTable = class(TCustomAttribute)
+//  private
+//    FName: string;
+//  public
+//    constructor Create(ATableName: string);
+//    property Name: string read FName write FName;
+//  end;
 
 
 type
@@ -54,9 +54,9 @@ implementation
 
 { AttTable }
 
-constructor AttTable.Create(ATableName: string);
-begin
-  FName:=ATableName;
-end;
+//constructor AttTable.Create(ATableName: string);
+//begin
+//  FName:=ATableName;
+//end;
 
 end.
