@@ -1,10 +1,11 @@
 object Form2: TForm2
   Left = 0
   Top = 0
+  ActiveControl = Edit1
   Caption = 'Form2'
   ClientHeight = 172
   ClientWidth = 524
-  Color = clBtnFace
+  Color = clBlue
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
