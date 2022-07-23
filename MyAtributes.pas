@@ -11,6 +11,14 @@ type
     property Name: string read FName write FName;
   end;
 
+  type
+  TMyClassBase = class
+  private
+    FBase: String;
+  public
+    property Base:String read FBase write FBase;
+  end;
+
 implementation
 
 { AttTable }

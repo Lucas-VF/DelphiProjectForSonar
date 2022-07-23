@@ -2,7 +2,8 @@ program SonarQube;
 
 uses
   Vcl.Forms,
-  CustonAtrib.View.SonarQube in 'CustonAtrib.View.SonarQube.pas' {Form2};
+  CustonAtrib.View.SonarQube in 'CustonAtrib.View.SonarQube.pas' {Form2},
+  MyAtributes in 'MyAtributes.pas';
 
 {$R *.res}
 
